@@ -1,4 +1,4 @@
-/* إعدادات عامة لتصفير المسافات وتوحيد الخط */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,63 +8,10 @@
 }
 
 body {
-    background-color: #1e293b; /* خلفية داكنة مريحة للعين */
+    background-color: #1e393b;
     color: #f8fafc;
 }
 
-/* تنسيق الهيدر */
-header {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(circle, #1e3a8a 0%, #0f172a 100%);
-    padding: 20px;
-    text-align: center;
-}
-
-.hero-container {
-    max-width: 800px;
-}
-
-header h1 {
-    color: #ffd43b; /* لون بايثون الأصفر */
-    font-size: 3rem;
-    margin-bottom: 20px;
-    font-weight: 700;
-    text-shadow: 0 4px 6px rgba(0,0,0,0.3);
-}
-
-header p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #cbd5e1;
-    margin-bottom: 40px;
-}
-
-/* تنسيق زر الـ Call to Action */
-.btn-start {
-    display: inline-block;
-    background-color: #306998; /* لون بايثون الأزرق */
-    color: #ffffff;
-    padding: 12px 35px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(48, 105, 152, 0.4);
-    transition: all 0.3s ease;
-}
-
-.btn-start:hover {
-    background-color: #ffd43b;
-    color: #1e2937;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(255, 212, 59, 0.4);
-}
-
-/* تنسيق سيكشن الفورم */
 main {
     width: 100%;
     min-height: 100vh;
@@ -92,7 +39,6 @@ form h2 {
     font-size: 1.5rem;
 }
 
-/* تنسيق حقول الإدخال والليبل */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -149,7 +95,5 @@ input[type="submit"]:hover {
 
 /* متجاوب تماماً مع الشاشات الصغيرة */
 @media (max-width: 480px) {
-    header h1 { font-size: 2rem; }
-    header p { font-size: 1rem; }
     form { padding: 25px 20px; }
 }
