@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة التسجيل في كورس بايثون</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="hero-container">
+            <h1>كورس بايثون المتكامل</h1>
+            <p>ابدأ رحلتك في عالم البرمجة من الصفر! في هذا الكورس سوف تتعلم لغة البرمجة بايثون، وفي نهاية الرحلة سنقوم ببناء مشاريع عملية حقيقية تدمج بين بايثون وتقنيات الويب الثلاثة الشهيرة (HTML, CSS, JavaScript) لتصنع تطبيقات ويب مذهلة.</p>
+            <a href="#sign" class="btn-start">ابدأ التعلم الآن</a>
+        </div>
+    </header>
+
+    <main>
+        <form id="sign">
+            <h2>استمارة التسجيل في الكورس</h2>
+            
+            <div class="form-group">
+                <label for="full-name">الاسم بالكامل (باللغة العربية)</label>
+                <input type="text" id="full-name" placeholder="مثال: محمد أحمد" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone-number">رقم الهاتف (واتساب)</label>
+                <input type="number" id="phone-number" placeholder="مثال: 01xxxxxxxxx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mail">البريد الإلكتروني</label>
+                <input type="email" id="mail" placeholder="name@example.com" required>
+            </div>
+
+            <input type="submit" value="تأكيد التسجيل في الكورس">
+        </form>
+    </main>
+
+</body>
+</html>
